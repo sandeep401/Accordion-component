@@ -1,0 +1,29 @@
+
+.accordion{
+    background-color: transparent;
+    width:500px;
+    overflow: hidden;
+    height:44px;
+    margin-top:40px;
+    transition: all 0.3s ease-in;
+}
+
+.heading{
+    background-color: lightsalmon;
+    border-radius: 4px;
+    cursor: pointer;
+}
+
+.heading span[data-expanded="true"]{
+    transform: rotate(90deg);
+    display:inline-block;
+}
+
+.content{
+    background-color: #fa4efb;
+    border-radius: 4px;
+}
+
+.accordion[data-expanded="true"]{
+    height: 300px
+}
